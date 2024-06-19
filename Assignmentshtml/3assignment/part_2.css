@@ -8,8 +8,21 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 720px;
   margin: 0;
-  /* background-color: #f0f0f0; */
   font-family: Arial, sans-serif;
+}
+
+div{
+  padding: 50px;
+  width: 200px;
+  height: 150px;
+  background-color: rgb(236, 10, 10);
+  color:white;
+  display: flex;
+  /* 1rem = 16px, so 18px = 1.125rem */
+  font-size: 1.125rem; 
+  justify-content: center;
+  align-items: center;
+
 }
