@@ -8,6 +8,7 @@ body {
   img {
       max-width: 100%;
       display: block;
+
   }
   
   .logo {
@@ -21,17 +22,23 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   nav {
     background-color: #000;
     padding: .5em;
+    position: sticky;
+    top: 0;
   }
   
   nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
   }
   
   nav a {
@@ -48,4 +55,6 @@ body {
 
   .feature {
       width: 200px;
+      float: left;
+      margin-right: 20px;
   }
