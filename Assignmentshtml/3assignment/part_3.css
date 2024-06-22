@@ -75,3 +75,29 @@
     font-style: normal;
 
 }
+
+body{
+    font-family: 'source_serif_4regular';
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+
+h1, h2{
+    font-family: 'josefin_slabthin';
+    letter-spacing: 3px;
+}
+
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h2+p{
+    text-indent: 20px;
+}
