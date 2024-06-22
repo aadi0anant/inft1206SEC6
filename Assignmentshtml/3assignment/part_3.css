@@ -131,3 +131,51 @@ a:hover{
     margin-left: 2px;
     display: inline-block;
 }
+
+ul,ol{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+li{
+    line-height: 15px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 20px; 
+}
+
+section ul li{
+    background: url('./bullet\ point\ image.jpeg') no-repeat left center;
+    background-size: 10px 10px;
+    padding-left: 20px;
+}
+
+aside ul li{
+    background: url('./bullet\ point\ image.jpeg') no-repeat left center;
+    background-size: 10px 10px;
+    padding-left: 20px;
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+nav ul li{
+    margin-bottom: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(190, 113, 113);
+    text-align: center;
+    color: #a66;
+}
+
+
+
