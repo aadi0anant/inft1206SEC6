@@ -58,3 +58,12 @@ body {
       float: left;
       margin-right: 20px;
   }
+
+  article{
+    flex: 1 1 70%;
+    margin-right: 30px;
+  }
+  
+  aside{
+    flex: 1 1 20%;
+  }
