@@ -1,3 +1,7 @@
+// Variable that stores reference to the paragraph
+const paragraph = document.querySelector('p');
+let countBall = 0;
+
 // set up canvas
 
 const canvas = document.querySelector("canvas");
@@ -141,6 +145,10 @@ class EvilCircle extends Shape{
       
             if (distance < this.size + ball.size) {
               ball.exists = false;
+
+              // Decrementing the counter and displaying the updated number of balls each time the evil circle eats a ball
+              countBall--;
+              paragraph.textContent = `Ball count:  ${countBall}`;
             }
           }
         }
@@ -164,6 +172,10 @@ while (balls.length < 25) {
   );
 
   balls.push(ball);
+
+  // Incrementing the counter and displaying the updated number of balls each time a ball is added to the scene.
+  countBall++;
+  paragraph.textContent = `Ball count: ${countBall}`;
 }
 
 const evilBall = new EvilCircle(random(0, width), random(0, height));
