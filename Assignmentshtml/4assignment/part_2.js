@@ -14,7 +14,7 @@ const alternativeText = {
     'pic3.jpg' : 'Flower',
     'pic4.jpg' : 'Egyptian',
     'pic5.jpg' : 'Butterfly'
-  }
+  };
 
 /* Looping through images */
 for(const image of images) {
